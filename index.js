@@ -33,7 +33,7 @@ if(process.argv[2] === undefined){
     if(/^[a-zA-Z0-9-_]{11}$/.test(process.argv[2])) {
         validVid.is_video_found(process.argv[2])
     }else {
-        console.log ("\nIncorrect parameter entered\nHere's how to download a YouTube Video; there are two options:\n\n1. npm youtubed\nThis will prompt you for the YouTube video Id\n\n2. node index.js wnHW6o8WMas\nwhere wnHW6o8WMas is your YouTube Video Id\n\n")
+        console.log ("\nIncorrect parameter entered\nHere's how to download a YouTube Video; there are two options:\n\n1. npm test\nThis will prompt you for the YouTube video Id\n\n2. node index.js wnHW6o8WMas\nwhere wnHW6o8WMas is your YouTube Video Id\n\n")
         process.exit()
     }
 }

@@ -8,8 +8,8 @@
     "url": "git+https://github.com/nt-michael/youtubed.git"
   },
   "scripts": {
-    "youtubed": "node index.js",
-    "test": ""
+    "test": "node index.js",
+    "tests": ""
   },
   "keywords": [
     "youtube",
